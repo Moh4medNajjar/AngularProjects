@@ -1,0 +1,93 @@
+img{
+  height:45px;
+  width:45px;
+}
+
+p{
+  background: transparent
+}
+.card{
+  border:none;
+
+  border-radius:15px;
+  box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.1);
+}
+.card-body{
+  border-radius:15px;
+}
+.absent{
+  margin-bottom:13px;
+
+}
+p, h5{
+  color: #292F50;
+}
+
+img{
+  margin-right:20px;
+}
+.bell-icon-container {
+  position: relative;
+  display: inline-block;
+}
+i{
+  font-size:larger;
+}
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  font-size: 8px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-group{
+  position: absolute;
+  right:20px;
+
+}
+
+.prfl:hover{
+    background:transparent;
+    color:rgb(33, 165, 236);
+
+}
+.warn:hover{
+  background:transparent;
+  color:rgb(255, 0, 13);
+
+}
+.msg:hover{
+  background:transparent;
+  color:rgb(134, 203, 49);
+
+}
+
+
+
+.dropdown-menu {
+  display: none;
+}
+
+.btn-group:active .dropdown-menu{
+  display: block;
+}
+
+.small-box{
+  display:flex;
+  align-items:center;
+}
+
+.stacked-box{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+

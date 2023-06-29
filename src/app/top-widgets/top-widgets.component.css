@@ -1,0 +1,92 @@
+:host {
+  display: block;
+}
+
+.container {
+  padding: 20px;
+}
+
+
+.card-body {
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 9px;
+}
+.column{
+
+  margin-bottom:40px;
+}
+.card{
+  border-radius: 9px;
+
+  height:70px;
+}
+
+.card-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: linear-gradient(to right bottom, #F80284, #7C27C7);
+  box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon i {
+  color: white;
+  background: transparent;
+  font-size:20px
+}
+
+.btn {
+  text-decoration: none;
+}
+
+.card-title {
+  color: #292F50;
+  font-weight: 450;
+  font-size: 16px;
+}
+
+.card-number {
+  color: #292F50;
+  font-weight: 750;
+  font-size: 18px;
+}
+
+.card-percentage {
+  color: #82D616;
+  font-weight: 700;
+  font-size: 14px;
+}
+.card:hover{
+  transform: scale(1.05)!important ;
+}
+
+.card {
+  transition-duration: 500ms;
+  border: none;
+  height: 132px;
+  margin-bottom:5px;
+
+}
+.card-body{
+  box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.1);
+  height: 100px;
+
+}
+.card-left{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}

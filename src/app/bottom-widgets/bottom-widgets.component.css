@@ -1,0 +1,67 @@
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+  padding: 15px;
+}
+
+
+.ressources {
+  border-collapse: collapse;
+  width: 100%;
+  color:rgb(206, 128, 3)
+}
+
+.green-gradient {
+  background: linear-gradient(to right, #91E82E, #1FB137);
+}
+
+.yellow-gradient {
+  background: linear-gradient(to right, #21CEFD, #215CFF);
+}
+
+.orange-gradient {
+  background: linear-gradient(to right, rgb(255, 184, 70), rgb(124, 77, 2));
+}
+
+.red-gradient {
+  background: linear-gradient(to right, #F2582A, #62140d);
+}
+
+.greenC{
+  color:#82D634;
+}
+.yellowC{
+  color:rgb(234, 187, 0);
+}
+.redC{
+  color:#EA0606; 
+}
+
+
+
+
+.ressources th,
+.ressources td {
+  padding: 8px;
+  text-align: left;
+}
+
+.ressources th {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+}
+
+.ressources tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.ressources tr:last-child {
+  border-bottom: none;
+}
+
+.table{
+  margin-left:12px;
+  margin-top:30px;
+  border-radius:15px;
+  box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.1);
+}
